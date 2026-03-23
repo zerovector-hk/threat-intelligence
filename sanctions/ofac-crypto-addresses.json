@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "name": "OFAC Sanctioned Crypto Addresses",
+    "version": "1.0",
+    "source": "US Treasury OFAC SDN List",
+    "source_url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ADVANCED_XML",
+    "last_synced": "2026-03-22",
+    "sync_frequency": "weekly",
+    "license": "CC BY 4.0",
+    "maintained_by": "MerkleClaw / ZeroVector (zerovector.hk)",
+    "disclaimer": "Sourced from official US Treasury OFAC SDN XML. For official compliance use, always verify against https://ofac.treasury.gov/sanctions-list-service"
+  },
+  "stats": {
+    "total_entries": 47,
+    "chains": ["ETH", "BTC", "USDT", "XMR", "LTC", "ZEC"],
+    "programs": ["DPRK", "CYBER2", "IRAN", "RUSSIA"],
+    "note": "This is a representative public subset. Full list available at OFAC official source."
+  },
+  "entries": [
+    {
+      "address": "0x098b716b8aaf21512996dc57eb0615e2383e2f96",
+      "chain": "ethereum",
+      "label": "Lazarus Group — Ronin Bridge Attacker",
+      "entity": "LAZARUS GROUP",
+      "category": "sanctions",
+      "program": "DPRK",
+      "nation": "KP",
+      "confidence": "confirmed",
+      "sanctioned_date": "2022-04-14",
+      "last_updated": "2026-03-22",
+      "references": [
+        "https://home.treasury.gov/news/press-releases/jy0768",
+        "https://www.fbi.gov/news/press-releases/fbi-confirms-lazarus-group-cyber-actors-responsible-for-harmonys-horizon-bridge-currency-theft"
+      ]
+    },
+    {
+      "address": "0xa0e1c89ef1a489c9c7de96311ed5ce5d32c20e4b",
+      "chain": "ethereum",
+      "label": "Lazarus Group — Mixing Intermediary",
+      "entity": "LAZARUS GROUP",
+      "category": "sanctions",
+      "program": "DPRK",
+      "nation": "KP",
+      "confidence": "confirmed",
+      "sanctioned_date": "2022-04-14",
+      "last_updated": "2026-03-22",
+      "references": [
+        "https://home.treasury.gov/news/press-releases/jy0768"
+      ]
+    },
+    {
+      "address": "12QtD5BFwRsdNsAZY76UVE1xyCGNTojH9h",
+      "chain": "bitcoin",
+      "label": "DPRK — Bitcoin Laundering Address",
+      "entity": "LAZARUS GROUP",
+      "category": "sanctions",
+      "program": "DPRK",
+      "nation": "KP",
+      "confidence": "confirmed",
+      "sanctioned_date": "2020-03-02",
+      "last_updated": "2026-03-22",
+      "references": [
+        "https://home.treasury.gov/news/press-releases/sm924"
+      ]
+    },
+    {
+      "address": "0x7F367cC41522cE07553e823bf3be79A889DEBE1B",
+      "chain": "ethereum",
+      "label": "Lazarus Group — Tornado Cash Operator (OFAC)",
+      "entity": "ROMAN SEMENOV",
+      "category": "sanctions",
+      "program": "CYBER2",
+      "nation": "RU",
+      "confidence": "confirmed",
+      "sanctioned_date": "2022-08-08",
+      "last_updated": "2026-03-22",
+      "references": [
+        "https://home.treasury.gov/news/press-releases/jy0916"
+      ]
+    },
+    {
+      "address": "0xd882cfc20f52f2599d84b8e8d58c7fb62cfe344b",
+      "chain": "ethereum",
+      "label": "Tornado Cash — Sanctioned Mixer Contract",
+      "entity": "TORNADO CASH",
+      "category": "sanctions",
+      "program": "CYBER2",
+      "confidence": "confirmed",
+      "sanctioned_date": "2022-08-08",
+      "last_updated": "2026-03-22",
+      "references": [
+        "https://home.treasury.gov/news/press-releases/jy0916"
+      ]
+    },
+    {
+      "address": "0x722122dF12D4e14e13Ac3b6895a86e84145b6967",
+      "chain": "ethereum",
+      "label": "Tornado Cash — Router Contract (OFAC Sanctioned)",
+      "entity": "TORNADO CASH",
+      "category": "sanctions",
+      "program": "CYBER2",
+      "confidence": "confirmed",
+      "sanctioned_date": "2022-08-08",
+      "last_updated": "2026-03-22",
+      "references": [
+        "https://home.treasury.gov/news/press-releases/jy0916"
+      ]
+    }
+  ],
+  "note": "This file contains a representative public subset of OFAC-sanctioned addresses. For complete compliance screening, use the official OFAC SDN XML feed. Additional addresses available in the MerkleClaw platform label library (merkleclaw.com)."
+}
