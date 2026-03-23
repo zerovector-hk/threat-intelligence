@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "name": "Lazarus Group / DPRK Known Addresses",
+    "version": "1.0",
+    "description": "Publicly attributed addresses linked to DPRK state-sponsored hacking operations (Lazarus Group, BlueNorOff, APT38)",
+    "last_updated": "2026-03-22",
+    "sources": ["OFAC SDN", "FBI", "CISA", "SlowMist", "Chainalysis public reports", "ZeroVector research"],
+    "license": "CC BY 4.0",
+    "maintained_by": "MerkleClaw / ZeroVector"
+  },
+  "attribution_note": "All addresses in this file have been publicly attributed to DPRK operations by at least one authoritative source. Confidence levels indicate attribution strength.",
+  "addresses": [
+    {
+      "address": "0x098b716b8aaf21512996dc57eb0615e2383e2f96",
+      "chain": "ethereum",
+      "label": "Lazarus — Ronin Bridge Primary Attacker",
+      "incident": "Ronin Bridge Hack 2022 ($624M)",
+      "confidence": "confirmed",
+      "ofac_sanctioned": true,
+      "sources": ["OFAC", "FBI"]
+    },
+    {
+      "address": "0xa0e1c89ef1a489c9c7de96311ed5ce5d32c20e4b",
+      "chain": "ethereum",
+      "label": "Lazarus — ETH Mixing Intermediary",
+      "confidence": "confirmed",
+      "ofac_sanctioned": true,
+      "sources": ["OFAC"]
+    },
+    {
+      "address": "12QtD5BFwRsdNsAZY76UVE1xyCGNTojH9h",
+      "chain": "bitcoin",
+      "label": "DPRK — BTC Laundering Cluster A",
+      "confidence": "confirmed",
+      "ofac_sanctioned": true,
+      "sources": ["OFAC"]
+    },
+    {
+      "address": "0x3fdffa8102d4a43f5a763b583ce5f5be379e65d4",
+      "chain": "ethereum",
+      "label": "Lazarus — Horizon Bridge Related",
+      "incident": "Harmony Horizon Bridge 2022 ($100M)",
+      "confidence": "high",
+      "ofac_sanctioned": false,
+      "sources": ["FBI", "SlowMist"]
+    }
+  ]
+}
